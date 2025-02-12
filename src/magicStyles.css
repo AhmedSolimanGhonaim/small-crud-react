@@ -1,0 +1,69 @@
+/* magicStyles.css */
+
+/* Global body style with a smooth gradient background */
+body {
+  background: linear-gradient(135deg, #000000 0%, #04cdff 100%);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for a card-like magical effect */
+.magic-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+}
+
+/* Headings with a magical text-shadow */
+h2 {
+  font-size: 2.5rem;
+  color: #d4bcbc;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+/* Custom magical button styling */
+.btn-magical {
+  background: linear-gradient(45deg, #3a6186, #89253e);
+  border: none;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+.btn-magical:hover {
+  background: linear-gradient(45deg, #89253e, #3a6186);
+}
+
+/* Table styling with soft colors and hover effect */
+.magic-table {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.magic-table thead tr {
+  background: linear-gradient(45deg, #3a6186, #89253e);
+  color: #fff;
+}
+
+.magic-table tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.magic-table tbody tr:hover {
+  background-color: rgba(250, 250, 250, 0.8);
+}
+
+/* Form control customization */
+.magic-form .form-control,
+.magic-form .form-check-input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.magic-form label {
+  font-weight: bold;
+  color: #ffffff;
+}

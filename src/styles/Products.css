@@ -1,0 +1,75 @@
+Container
+.text-center {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Toggle Button */
+.toggle-btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.toggle-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Category Buttons */
+.category-buttons button {
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.category-buttons button:hover {
+  transform: translateY(-2px);
+}
+
+/* Product Card */
+.product-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Product Image */
+.product-image {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+/* Product Title */
+.product-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Product Price */
+.product-price {
+  font-size: 1.1rem;
+  color: #f8c291;
+  font-weight: bold;
+}
+
+/* Add to Cart Button */
+.product-card button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.product-card button:hover {
+  transform: scale(1.05);
+}
